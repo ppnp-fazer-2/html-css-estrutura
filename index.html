@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+  <nav>
+    <a href="#predio">Sobre nós</a>
+    <a href="#formulario">Contato</a>
+    <a href="#rodape">Rodapé</a>
+  </nav>
+
+  <header>
+    <h1>Construtora PPNP</h1>
+  </header>
+
+  <section id="predio" class="predios">
+    <h2>Prédios</h2>
+    <div>
+      <img src="https://images.unsplash.com/photo-1557813282-bcd50093e38f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" 
+      alt="Primeiro prédio">
+      <img src="https://images.unsplash.com/photo-1621511075938-f03482369feb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" 
+      alt="Segundo prédio">
+      <img src="https://images.unsplash.com/photo-1559430647-5d7e96ea2bfa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" 
+      alt="Terceiro prédio">
+    </div>
+  </section>
+
+  <section id="formulario">
+    <h3>Formulário</h3>
+    <div>
+      <form action="https://www.google.com">
+        <div>
+          <label>Email</label>
+          <input type="email" name="email" id="email" placeholder="Escreva seu email" required> 
+         </div>
+         <div>
+           <label>Nome completo</label>
+           <input type="text" name="nome" id="nome" placeholder="Escreva seu nome" required >
+         </div>
+         <div>
+           <label>Qual sua região</label>
+           <select>
+             <option selected disabled value="">Selecionar</option>
+             <option name="sp">São Paulo</option>
+             <option name="rj">Rio de Janeiro</option>
+           </select>
+         </div>
+         <div>
+           <label>Nota da empresa</label>
+           <label>
+            <input type="radio" name="nota" value="bom">Bom
+           </label>
+           <label>
+             <input type="radio" name="nota" value="ruim">Ruim
+           </label>
+         </div>
+         <div>
+           <label>Qual sua dúvida</label>
+           <textarea rows="6" name="sobre" id="sobre" placeholder="Escreva sobre" required></textarea>
+         </div>
+         <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer id="rodape">
+    <h6>Chegamos ao final</h6>
+  </footer>
+
+</body>
+</html>
